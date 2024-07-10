@@ -70,9 +70,9 @@
 
         rgb_layer {
             bindings = <
-&rgb_ug RGB_OFF  &rgb_ug RGB_ON   &trans  &trans  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI    &rgb_ug RGB_COLOR_HSB(0,92,50)  &trans  &trans  &trans  &trans  &trans
-&rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &trans  &trans  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI    &trans                          &trans  &trans  &trans  &trans  &trans
-&rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &trans  &trans  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI    &trans                          &trans  &trans  &trans  &trans  &trans
+&rgb_ug RGB_OFF  &rgb_ug RGB_ON   &trans  &trans  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI    &rgb_ug RGB_COLOR_HSB(0,100,75)  &rgb_ug RGB_COLOR_HSB(65,100,75)  &rgb_ug RGB_COLOR_HSB(120,100,75)  &rgb_ug RGB_COLOR_HSB(180,100,75)  &rgb_ug RGB_COLOR_HSB(240,100,75)  &rgb_ug RGB_COLOR_HSB(300,100,75)
+&rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &trans  &trans  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI    &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(65,100,50)  &rgb_ug RGB_COLOR_HSB(120,100,50)  &rgb_ug RGB_COLOR_HSB(180,100,50)  &rgb_ug RGB_COLOR_HSB(240,100,50)  &rgb_ug RGB_COLOR_HSB(300,100,50)
+&rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &trans  &trans  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI    &rgb_ug RGB_COLOR_HSB(0,100,25)  &rgb_ug RGB_COLOR_HSB(65,100,25)  &rgb_ug RGB_COLOR_HSB(120,100,25)  &rgb_ug RGB_COLOR_HSB(180,100,25)  &rgb_ug RGB_COLOR_HSB(240,100,25)  &rgb_ug RGB_COLOR_HSB(300,100,25)
                                           &trans  &trans           &trans             &trans                          &trans  &trans
             >;
         };
